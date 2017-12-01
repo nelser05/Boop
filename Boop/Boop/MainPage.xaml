@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Boop"
+             x:Class="Boop.MainPage"
+             BackgroundColor="LightBlue">
+
+    <Label Text="Welcome to the real Boop!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+
+    <Label Text="Created by Olivia Hawkins, Erik Nelson, Kieran Okerstrom!" 
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+</ContentPage>
