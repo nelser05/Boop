@@ -4,13 +4,14 @@
              xmlns:local="clr-namespace:Boop"
              x:Class="Boop.MainPage"
              BackgroundColor="LightBlue">
-
+    
     <Label Text="Welcome to the real Boop!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+           VerticalOptions="CenterAndExpand" 
+           HorizontalOptions="CenterAndExpand" />
+
 
     <Label Text="Created by Olivia Hawkins, Erik Nelson, Kieran Okerstrom!" 
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-
+    
 </ContentPage>

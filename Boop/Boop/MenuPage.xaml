@@ -8,7 +8,6 @@
         <Label Text="Welcome to Xamarin Forms!" 
                VerticalOptions="Center"
                HorizontalTextAlignment="Center"
-               Rotation="-15"
                IsVisible="True"
                FontSize="Large"
                FontAttributes="Bold"

@@ -13,19 +13,38 @@ namespace Boop
         {
             InitializeComponent();
 
-            Button button = new Button
+            
+            Button getStartedButton = new Button
             {
-                Text = "Get Started Menu!",
+                Text = "Sign Up",
                 HorizontalOptions = LayoutOptions.Center,
                 VerticalOptions = LayoutOptions.Center
             };
 
-            button.Clicked += async (sender, args) =>
+            getStartedButton.Clicked += async (sender, args) =>
             {
                 await Navigation.PushAsync(new MenuPage());
             };
+            // Next Button
+            Button signInButton = new Button
+            {
+                Text = "Sign In",
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.Center
+            };
 
-            Content = button;
+            signInButton.Clicked += async (sender, args) =>
+            {
+                await Navigation.PushAsync(new MenuPage());
+            };
+            Content = new StackLayout
+            {
+                Children =
+                {
+                    getStartedButton,
+                    signInButton
+                }
+            };
         }
     }
 }

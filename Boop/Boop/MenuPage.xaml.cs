@@ -15,6 +15,51 @@ namespace Boop
         public MenuPage()
         {
             InitializeComponent();
+
+            var optionsButton = new Button
+            {
+                Text = "Options",
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.Center
+            };
+
+            optionsButton.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new MainPage());
+            };
+            // Next button
+            var visualizationButton = new Button
+            {
+                Text = "Visualization",
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.Center
+            };
+
+            visualizationButton.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new VisualizationPage());
+            };
+            // Next button
+            var socialButton = new Button
+            {
+                Text = "Social",
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.Center
+            };
+
+            socialButton.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new MainPage());
+            };
+            Content = new StackLayout
+            {
+                Children =
+                {
+                    optionsButton,
+                    visualizationButton,
+                    socialButton
+                }
+            };
         }
     }
 }
