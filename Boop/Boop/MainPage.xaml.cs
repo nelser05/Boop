@@ -16,14 +16,14 @@ namespace Boop
             
             Button getStartedButton = new Button
             {
-                Text = "Sign Up",
+                Text = "Get Started",
                 HorizontalOptions = LayoutOptions.Center,
                 VerticalOptions = LayoutOptions.Center
             };
 
             getStartedButton.Clicked += async (sender, args) =>
             {
-                await Navigation.PushAsync(new MenuPage());
+                await Navigation.PushAsync(new SignUpPage());
             };
             // Next Button
             Button signInButton = new Button
