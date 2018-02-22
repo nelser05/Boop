@@ -14,7 +14,7 @@ namespace Boop
     {
         public SignUpPage()
         {
-            InitializeComponent();
+            //InitializeComponent();
         }
     }
 }

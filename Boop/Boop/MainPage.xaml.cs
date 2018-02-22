@@ -49,12 +49,12 @@ namespace Boop
 
         void Handle_Clicked(object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new MenuPage());
+            Navigation.PushAsync(new Boop.MenuPage());
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
-        {
+        //private void Button_Clicked(object sender, System.EventArgs e)
+        //{
 
-        }
+        //}
     }
 }

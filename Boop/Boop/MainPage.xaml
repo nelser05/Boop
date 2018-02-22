@@ -15,7 +15,8 @@
              Title="MainPage">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-            <Label Text="I am MainPage">
+            <Label Text="I am MainPage"
+                   FontSize="Large">
             </Label>
             <Button Text="Add MenuPage to navigation stack" Clicked="Handle_Clicked"></Button>
         </StackLayout>
