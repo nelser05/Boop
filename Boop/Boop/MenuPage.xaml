@@ -2,16 +2,14 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Boop.MenuPage"
-             Title="Hello XAML Page">
+             Title="MenuPage">
     <ContentPage.Content>
-        
-        <Label Text="Welcome to Xamarin Forms!" 
-               VerticalOptions="Center"
-               HorizontalTextAlignment="Center"
-               IsVisible="True"
-               FontSize="Large"
-               FontAttributes="Bold"
-               TextColor="Blue"/>
-        
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            
+            <Label Text="I am MenuPage">
+            </Label>
+            <Button Text="Add SignUpPage to navigation stack" Clicked="Handle_Clicked"></Button>
+        </StackLayout>
+
     </ContentPage.Content>
 </ContentPage>

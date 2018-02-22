@@ -9,6 +9,7 @@ using Xamarin.Forms.Xaml;
 
 namespace Boop
 {
+
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class VisualizationPage : ContentPage
     {
@@ -17,5 +18,7 @@ namespace Boop
             InitializeComponent();
         }
     }
+
+
 
 }
