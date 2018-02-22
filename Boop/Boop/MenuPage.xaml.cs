@@ -14,7 +14,8 @@ namespace Boop
     {
         public MenuPage()
         {
-            //InitializeComponent();
+            /// problem here: initializing page but sent into break when this is used:
+            ///InitializeComponent();
         }
 
 
