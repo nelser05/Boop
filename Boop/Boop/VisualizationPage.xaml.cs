@@ -10,12 +10,12 @@ using Xamarin.Forms.Xaml;
 namespace Boop
 {
 
-    [XamlCompilation(XamlCompilationOptions.Compile)]
+    //[XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class VisualizationPage : ContentPage
     {
         public VisualizationPage()
         {
-            InitializeComponent();
+            //InitializeComponent();
         }
     }
 

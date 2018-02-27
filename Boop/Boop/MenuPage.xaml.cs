@@ -9,13 +9,13 @@ using Xamarin.Forms.Xaml;
 
 namespace Boop
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
+    //[XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MenuPage : ContentPage
     {
         public MenuPage()
         {
             /// problem here: initializing page but sent into break when this is used:
-            ///InitializeComponent();
+            InitializeComponent();
         }
 
 

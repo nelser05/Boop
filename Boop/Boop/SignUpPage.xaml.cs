@@ -9,7 +9,7 @@ using Xamarin.Forms.Xaml;
 
 namespace Boop
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
+    //[XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SignUpPage : ContentPage
     {
         public SignUpPage()
