@@ -8,7 +8,7 @@
             
             <Label Text="I am MenuPage">
             </Label>
-            <Button Text="Add SignUpPage to navigation stack" Clicked="Handle_Clicked"></Button>
+            <Button Text="Add SignUp Page to navigation stack" Clicked="Handle_Clicked"></Button>
         </StackLayout>
 
     </ContentPage.Content>

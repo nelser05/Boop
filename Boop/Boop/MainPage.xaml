@@ -18,7 +18,10 @@
             <Label Text="I am MainPage"
                    FontSize="Large">
             </Label>
-            <Button Text="Add MenuPage to navigation stack" Clicked="Handle_Clicked"></Button>
+            <Button Text="Add Menu Page to navigation stack" Clicked="Handle_Clicked">
+            </Button>
+            <Button Text="Add Visualization Page to stack" Clicked="Handle_Clicked2">
+            </Button>
         </StackLayout>
         
         

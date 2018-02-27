@@ -15,7 +15,7 @@ namespace Boop
     {
         public VisualizationPage()
         {
-            //InitializeComponent();
+            InitializeComponent();
         }
     }
 

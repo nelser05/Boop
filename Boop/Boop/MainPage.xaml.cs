@@ -52,6 +52,11 @@ namespace Boop
             Navigation.PushAsync(new MenuPage());
         }
 
+        void Handle_Clicked2(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new VisualizationPage());
+        }
+
         private void Button_Clicked(object sender, EventArgs e)
         {
 
