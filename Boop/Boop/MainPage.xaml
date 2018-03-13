@@ -15,12 +15,12 @@
              Title="MainPage">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-            <Label Text="I am MainPage"
+            <Label Text="Welcome to Boop"
                    FontSize="Large">
             </Label>
-            <Button Text="Add Menu Page to navigation stack" Clicked="Handle_Clicked">
+            <Button Text="Sign Up" Clicked="Handle_Clicked">
             </Button>
-            <Button Text="Add Visualization Page to stack" Clicked="Handle_Clicked2">
+            <Button Text="Log In" Clicked="Handle_Clicked2">
             </Button>
         </StackLayout>
         

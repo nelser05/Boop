@@ -20,7 +20,7 @@ namespace Boop
 
         void Handle_Clicked(object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new SignUpPage());
+            Navigation.PushAsync(new VisualizationPage());
         }
 
         void Handle_Clicked2(object sender, System.EventArgs e)
