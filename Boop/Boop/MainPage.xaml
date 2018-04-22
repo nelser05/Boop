@@ -12,7 +12,8 @@
              xmlns:local="clr-namespace:Boop"
              x:Class="Boop.MainPage"
              BackgroundColor="LightBlue"
-             Title="MainPage">
+             Title="MainPage"
+             >
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
             <Label Text="Welcome to Boop"
